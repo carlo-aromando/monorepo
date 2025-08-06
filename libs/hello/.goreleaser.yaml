@@ -6,17 +6,11 @@ builds:
   - skip: true
 
 archives:
-  - skip: true
-
+  - format: binary
+  
 changelog:
   sort: asc
   filters:
     exclude:
       - "^docs:"
       - "^test:"
-
-release:
-  github:
-    owner: carlo-aromando
-    name: monorepo
-  tag_name: "libs/hello/v{{ .Version }}"
