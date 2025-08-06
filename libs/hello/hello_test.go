@@ -3,7 +3,7 @@ package hello
 import (
 	"testing"
 
-	"github.com/carlo-aromando/monorepo/hello"
+	"github.com/carlo-aromando/monorepo/libs/hello"
 )
 
 func TestSayHello(t *testing.T) {
