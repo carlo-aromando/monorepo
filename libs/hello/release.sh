@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-VERSION="v0.0.1"
+VERSION="v0.0.3"
 TAG="libs/hello/${VERSION}"
 #ARCHIVE="hello-${VERSION}.tar.gz"
 
