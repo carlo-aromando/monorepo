@@ -1,9 +1,9 @@
-load("@rules_go//go:def.bzl", "go_binary")
+load("@io_bazel_rules_go//go:def.bzl", "go_binary")
 
 go_binary(
     name = "app",
     srcs = ["main.go"],
     importpath = "github.com/carlo-aromando/monorepo/apps/app",
     visibility = ["//visibility:public"],
-    deps = ["@com_github_carlo_aromando_monorepo_hello//:hello"],
+    deps = ["@com_github_carlo_aromando_monorepo_hello//libs:hello"],
 )
