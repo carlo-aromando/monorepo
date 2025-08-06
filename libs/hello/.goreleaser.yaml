@@ -1,13 +1,22 @@
+version: 2
+
 project_name: hello
+
+builds:
+  - skip: true
+
+archives:
+  - skip: true
+
+changelog:
+  sort: asc
+  filters:
+    exclude:
+      - "^docs:"
+      - "^test:"
 
 release:
   github:
     owner: carlo-aromando
     name: monorepo
   tag_name: "libs/hello/v{{ .Version }}"
-
-changelog:
-  use: git
-
-builds: []
-archives: []
