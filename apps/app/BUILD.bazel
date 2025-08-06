@@ -5,5 +5,5 @@ go_binary(
     srcs = ["main.go"],
     importpath = "github.com/carlo-aromando/monorepo/apps/app",
     visibility = ["//visibility:public"],
-    deps = ["@com_github_carlo_aromando_monorepo_hello//libs:hello"],
+    deps = ["@com_github_carlo_aromando_monorepo_hello//libs/hello"],
 )
