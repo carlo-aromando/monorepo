@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/carlo-aromando/monorepo/libs/hello"
+	"github.com/carlo-aromando/monorepo/hello"
 )
 
 func main() {

@@ -19,6 +19,7 @@
           gotools
           goreleaser
           bazel_7
+          gh
         ];
         shellHook = ''
           echo "Welcome to monorepo dev shell"
