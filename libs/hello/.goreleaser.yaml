@@ -14,7 +14,3 @@ changelog:
     exclude:
       - "^docs:"
       - "^test:"
-
-monorepo:
-  tag_prefix: libs/hello
-  dir: libs/hello
