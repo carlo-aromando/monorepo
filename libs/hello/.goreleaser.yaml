@@ -1,0 +1,13 @@
+project_name: hello
+
+release:
+  github:
+    owner: carlo-aromando
+    name: monorepo
+  tag_name: "libs/hello/v{{ .Version }}"
+
+changelog:
+  use: git
+
+builds: []
+archives: []

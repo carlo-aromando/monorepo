@@ -1,0 +1,9 @@
+.direnv/
+
+# Added by goreleaser init:
+dist/
+
+bazel-bin
+bazel-monorepo
+bazel-out
+bazel-testlogs
